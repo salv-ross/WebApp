@@ -1,0 +1,66 @@
+.square-button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 5px;
+  /* Add any additional styling as needed */
+}
+
+.red-link-block {
+  border-color: rgb(226, 0, 0);
+  background-color: rgb(226, 0, 0);
+  /* ...your existing styles... */
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 5px;
+  padding: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.image-button {
+  width: 200px;
+  height: auto;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.images-row {
+  display: flex;
+  align-items: center;
+}
+
+.some-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  /* Adjust the gap as needed */
+}
+
+.radio-button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ff0000;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Style the checked state of the radio button */
+.custom-radio::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #00fc50;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
